@@ -1,0 +1,65 @@
+body {
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(darkblue, blue);
+    padding: 5px;
+    color: white;
+}
+
+.form-container {
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.form-container h2 {
+    text-align: center;
+}
+
+.results-container {
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.results-container h2 {
+    text-align: center;
+}
+
+.box {
+    border: 1px solid black;
+    /* margin: 5px; */
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.weather-info h5,
+.weather-info p {
+    display: inline;
+    margin: 5px;
+}
+
+.row {
+    justify-content: space-evenly;
+}
+
+.search-history {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-item {
+    border: 1px solid black;
+    margin: 1px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 200px;
+}
